@@ -16,7 +16,7 @@ class RSSFeedAlbumDetailViewControllerTests: XCTestCase {
     override func setUp() {
         viewController = RSSFeedAlbumDetailViewController()
         if let mockData = Feeds.getMockFeeds(for: FeedsMock()).feed.results.first {
-            viewModel = FeedDetailViewModel(name: mockData.name, artist: mockData.artistName, genres: mockData.genres, releaseDate: mockData.releaseDate, copyright: mockData.copyright, artworkUrl100: mockData.artworkUrl100)
+            viewModel = FeedDetailViewModel(URL:"",name: mockData.name, artist: mockData.artistName, genres: mockData.genres, releaseDate: mockData.releaseDate, copyright: mockData.copyright, artworkUrl100: mockData.artworkUrl100)
             viewController?.feedDetailViewModel = viewModel
         }
     }
