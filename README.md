@@ -1,6 +1,6 @@
 # MusicAlbums
 
-I have considered the VIPER architecture for this requirement. VIPER has so many advantages and less disadvantages. 
+I have considered the VIPER architecture for this requirement as experiment.
 
-It is suitable for all kinds of projects.
+No Storyboards or .xibs used to for UI.
 
